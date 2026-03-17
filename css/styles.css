@@ -18,15 +18,62 @@ box-sizing: border-box;
 
 .wrapper{
     max-width: 1171px;
+    margin: 0 auto;
     }
 
 /*------------------------------------------------------------------------------
    Elements
 ------------------------------------------------------------------------------*/
 h1{
-    font: 900 1.75 "Raleway";
+    font: 700 4rem/1.1 "Raleway", sans-serif;
+}
+
+h2{
+    font: 700 3rem/1.1 "Raleway", sans-serif;
+}
+
+h3{
+    font: 700 2rem/1.1 "Raleway", sans-serif;
+}
+
+a{
+    font: 700 1.125rem "Raleway", sans-serif;
 }
 
 /*------------------------------------------------------------------------------
-Components
+    Components
 ------------------------------------------------------------------------------*/
+
+/*header*/
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 21px 0;
+}
+header ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    
+}
+
+header a{
+    color: #000;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #D300B7;
+
+}
