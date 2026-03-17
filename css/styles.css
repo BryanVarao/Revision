@@ -51,21 +51,19 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    
+    width: 100%;
+    z-index: 999;
 }
 
 header .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    padding: 21px 0;
 }
 header ul{
     display: flex;
     gap: 40px;
     list-style: none;
-    
 }
 
 header a{
@@ -75,5 +73,10 @@ header a{
 
 header a:hover{
     color: #D300B7;
+}
 
+/*hero*/
+
+.hero{
+    background: url("../images/hero.png") no-repeat center;
 }
