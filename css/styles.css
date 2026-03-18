@@ -152,6 +152,10 @@ header .bouton:hover{
     text-align: center;
 }
 
+.contenu .bouton:hover{
+    cursor: pointer;
+}
+
 /*contenu2*/
 
 .circuit{
@@ -215,6 +219,9 @@ header .bouton:hover{
     color: #D300B7;
     text-align: center;
 }
+.card .bouton:hover{
+    cursor: pointer;
+}
 
 
 /*footer*/
@@ -244,4 +251,37 @@ footer .contenu3 .icone span{
 footer .contenu3 .icone span:hover{
     background-color: #000;
     cursor: pointer;
+}
+
+/*Aide stylistique*/
+
+img.zoom{
+    max-height: 80%;
+    cursor: pointer;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    padding: 30px;
+
+    z-index: 9999;
+
+    background-color: rgba(0, 0, 0, 0.8);
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.visible{
+    display: flex;
 }
